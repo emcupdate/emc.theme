@@ -94,10 +94,13 @@
   <replace css:theme="#portal-top" css:content-children="#portal-top" />
 
   <!-- Footer -->
-  <replace css:theme-children="#portal-footer" css:content-children="#portal-footer-wrapper" />
+  <!--  use custom footer in theme  -->
+  <replace css:theme-children="#portal-footer" css:content-children="#portal-footer-wrapper" /> 
+
 
   <!-- toolbar -->
   <replace css:theme="#portal-toolbar" css:content-children="#edit-bar" css:if-not-content=".ajax_load" css:if-content=".userrole-authenticated" />
   <replace css:theme="#anonymous-actions" css:content-children="#portal-personaltools-wrapper" css:if-not-content=".ajax_load" css:if-content=".userrole-anonymous" />
-
+  <!-- bottom js -->
+  <append css:theme="#site-scripts" css:content-children="#bottom-js"/>
 </rules>
