@@ -30,7 +30,23 @@
   <copy attributes="*" css:content="body" css:theme="body" />
 
   <!-- move global nav -->
+  <copy css:theme=".navbar-brand" css:content="#portal-logo" attributes="href"/>
+  <replace css:theme="#nav" css:content-children="#portal-globalnav-collapse" method="raw" />
+ <!-- 
   <replace css:theme-children="#mainnavigation" css:content-children="#portal-mainnavigation" method="raw" />
+-->
+<!-- global search -->
+	<copy css:theme="#topsearchbox" css:content="#portal-searchbox form" attributes="action"/>
+    <copy css:theme="#topsearchbox .search-query" css:content="#portal-searchbox form .searchField" attributes="placeholder"/>
+    <copy css:theme="#topsearchbox button" css:content="#portal-searchbox form .searchButton" attributes="value"/>       
+<!-- anonymous action -->
+<!--  <replace css:theme="#anonymous-actions" css:content-children="#portal-personaltools-wrapper" css:if-not-content=".ajax_load" css:if-content=".userrole-anonymous" />
+-->
+    <drop css:theme="#secondary-nav" css:if-not-content=".userrole-anonymous"/>
+    <replace css:theme-children="#secondary-nav" css:if-not-content=".ajax_load" css:if-content=".userrole-anonymous">
+        <li><xsl:copy-of css:select="#personaltools-login"/></li>
+        <li><xsl:copy-of css:select="#personaltools-join"/></li>             
+    </replace>
 
   <!-- include view @@hero on homepage only -->
   <after css:theme="#mainnavigation-wrapper" css:content=".principal" href="/@@hero" css:if-content="body.template-document_view.section-front-page" />
@@ -100,7 +116,7 @@
 
   <!-- toolbar -->
   <replace css:theme="#portal-toolbar" css:content-children="#edit-bar" css:if-not-content=".ajax_load" css:if-content=".userrole-authenticated" />
-  <replace css:theme="#anonymous-actions" css:content-children="#portal-personaltools-wrapper" css:if-not-content=".ajax_load" css:if-content=".userrole-anonymous" />
+
   <!-- bottom js -->
   <append css:theme="#site-scripts" css:content-children="#bottom-js"/>
 </rules>
