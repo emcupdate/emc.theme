@@ -2636,7 +2636,7 @@ fieldset[disabled] .link-parent.active {
   border-top: 0;
 }
 .portlet .portletContent > ul > li a:before {
-  content: "•";
+  content: "";
   position: absolute;
   font-size: 25px;
   margin-top: -9px;
@@ -3217,6 +3217,15 @@ body#visual-portal-wrapper.pat-plone .outer-wrapper [class*="contenttype-"]:befo
 body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-folder:before {
   content: '\e801';
 }
+body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-kb-folder:before {
+  content: '\e801';
+}
+body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-kb-kbfolder:before {
+  content: '\e801';
+}
+body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-kb-ormfolder:before {
+  content: '\e801';
+}
 body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-document:before {
   content: '\e80e';
 }
@@ -3260,6 +3269,12 @@ body#visual-portal-wrapper.pat-plone #edit-zone [class*="contenttype-"]:after {
   position: absolute;
 }
 body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-folder:after {
+  content: '\e801';
+}
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-kb-ormfolder:after {
+  content: '\e801';
+}
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-kb-kbfolder:after {
   content: '\e801';
 }
 body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-document:after {
