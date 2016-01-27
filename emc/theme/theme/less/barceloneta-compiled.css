@@ -3226,7 +3226,49 @@ body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-kb-kbfolder
 body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-kb-ormfolder:before {
   content: '\e801';
 }
+body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-project-projectfolder:before {
+  content: '\e801';
+}
+body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-project-project:before {
+  content: '\e806';
+}
+body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-bokeh-glyphs:before {
+  content: '\e807';
+}
+body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-project-team:before {
+  content: '\e808';
+}
+body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-memberarea-workspace:before {
+  content: '\e801';
+}
+body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-memberarea-myfolder:before {
+  content: '\e801';
+}
+body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-memberarea-message:before {
+  content: '\e800';
+}
+body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-memberarea-messagebox:before {
+  content: '\e809';
+}
+body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-memberarea-inputbox:before {
+  content: '\e809';
+}
+body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-memberarea-outputbox:before {
+  content: '\e809';
+}
 body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-document:before {
+  content: '\e80e';
+}
+body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-project-analysisdoc:before {
+  content: '\e80e';
+}
+body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-project-designdoc:before {
+  content: '\e80e';
+}
+body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-project-auditdoc:before {
+  content: '\e80e';
+}
+body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-project-diagnosedoc:before {
   content: '\e80e';
 }
 body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-file:before {
