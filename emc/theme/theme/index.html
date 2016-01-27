@@ -86,9 +86,16 @@
     </footer>
 <script src="http://images.315ok.org/xtshzz/dist/js/bootstrap.min.js"></script>     
 <script>
-	$('.dropdown-toggle').dropdown()
+$(document).ready(function(){  	
+$('.collapse-control').on('click', function () {
+var willshow = $(this).find('.hidden');
+var willhide = $(this).find('.shown');
+ willshow.removeClass('hidden').addClass('shown');
+ willhide.removeClass('shown').addClass('hidden');
+});
+$('.dropdown-toggle').dropdown();
+});     	
 </script>
-
     <div class="hidden" id="site-scripts"><!--plone bottom js resources --></div>
   </body>
 </html>
