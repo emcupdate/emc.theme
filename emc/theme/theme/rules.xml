@@ -35,8 +35,9 @@
  <!-- 
   <replace css:theme-children="#mainnavigation" css:content-children="#portal-mainnavigation" method="raw" />
 -->
-<!-- global search -->
+<!-- global search  -->
 	<copy css:theme="#topsearchbox" css:content="#portal-searchbox form" attributes="action"/>
+	<copy css:theme="#topsearchbox" css:content="#portal-searchbox form" attributes="data-pat-livesearch"/>	
     <copy css:theme="#topsearchbox .search-query" css:content="#portal-searchbox form .searchField" attributes="placeholder"/>
     <copy css:theme="#topsearchbox button" css:content="#portal-searchbox form .searchButton" attributes="value"/>       
 <!-- anonymous action -->
