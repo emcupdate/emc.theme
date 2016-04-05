@@ -43,7 +43,9 @@
 <!-- anonymous action -->
 <!--  <replace css:theme="#anonymous-actions" css:content-children="#portal-personaltools-wrapper" css:if-not-content=".ajax_load" css:if-content=".userrole-anonymous" />
 -->
+    <replace css:theme-children="#outlink" css:if-not-content=".ajax_load" css:content-children="#portaltab-diancijisuanji" />   
     <drop css:theme="#secondary-nav" css:if-not-content=".userrole-anonymous"/>
+    
     <replace css:theme-children="#secondary-nav" css:if-not-content=".ajax_load" css:if-content=".userrole-anonymous">
         <li><xsl:copy-of css:select="#personaltools-login"/></li>
         <li><xsl:copy-of css:select="#personaltools-join"/></li>             
