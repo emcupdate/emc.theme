@@ -108,17 +108,9 @@
 $(document).ready(function(){  	
 $('.collapse-control').on('click', function () {
 var willshow = $(this).find('.hidden');
-//var alt = willshow.attr("alt");
- //if (alt ==="+") {
-  //var url = $(this).attr("data-target");
-  //window.location.href = url;
- // return false;
- //}
 var willhide = $(this).find('.shown');
-//var willshow = $(this).find('.hidden');
  willshow.removeClass('hidden').addClass('shown');
  willhide.removeClass('shown').addClass('hidden');
-
 });
 $('.dropdown-toggle').dropdown();
 $('a[href^="http://mw4024.wicp.net:8089/"]').attr('target','_blank').attr('class','outputlink');
