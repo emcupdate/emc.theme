@@ -3230,13 +3230,13 @@ body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-project-pro
   content: '\e801';
 }
 body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-project-project:before {
-  content: '\e806';
+  content: '\e823';
 }
 body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-bokeh-glyphs:before {
   content: '\e807';
 }
 body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-project-team:before {
-  content: '\e808';
+  content: '\e834';
 }
 body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-memberarea-workspace:before {
   content: '\e801';
@@ -3265,7 +3265,7 @@ body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-project-ana
 body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-project-designdoc:before {
   content: '\e80e';
 }
-body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-project-auditdoc:before {
+body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-project-doc:before {
   content: '\e80e';
 }
 body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-project-diagnosedoc:before {
