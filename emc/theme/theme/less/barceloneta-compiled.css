@@ -3319,6 +3319,24 @@ body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-kb-ormfolder:af
 body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-kb-kbfolder:after {
   content: '\e801';
 }
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-project-projectfolder:after {
+  content: '\e801';
+}
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-project-project:after {
+  content: '\e823';
+}
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-project-team:after {
+  content: '\e834';
+}
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-project-doc:after {
+  content: '\e818';
+}
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-bokeh-codefile:after {
+  content: '\e826';
+}
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-bokeh-fearture:after {
+  content: '\e826';
+}
 body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-document:after {
   content: '\e80e';
 }
