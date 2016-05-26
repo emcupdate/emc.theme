@@ -3239,6 +3239,9 @@ body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-project-tea
   content: '\e834';
 }
 body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-memberarea-workspace:before {
+  content: '\e840';
+}
+body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-memberarea-workspace:before {
   content: '\e801';
 }
 body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-memberarea-myfolder:before {
@@ -3336,6 +3339,9 @@ body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-bokeh-codefile:
 }
 body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-bokeh-fearture:after {
   content: '\e826';
+}
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-memberarea-workspace:after {
+  content: '\e840';
 }
 body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-document:after {
   content: '\e80e';
