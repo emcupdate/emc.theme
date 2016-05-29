@@ -3316,8 +3316,11 @@ body#visual-portal-wrapper.pat-plone #edit-zone [class*="contenttype-"]:after {
 body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-folder:after {
   content: '\e801';
 }
-body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-kb-ormfolder:after {
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-kb-folder:after {
   content: '\e801';
+}
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-kb-ormfolder:after {
+  content: '\e825';
 }
 body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-kb-kbfolder:after {
   content: '\e801';
