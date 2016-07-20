@@ -3248,10 +3248,16 @@ body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-memberarea-
   content: '\e801';
 }
 body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-memberarea-message:before {
-  content: '\e800';
+  content: '\e81c';
 }
 body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-memberarea-messagebox:before {
   content: '\e809';
+}
+body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-memberarea-favorite:before {
+  content: '\e825';
+}
+body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-memberarea-todo:before {
+  content: '\e805';
 }
 body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-memberarea-inputbox:before {
   content: '\e809';
@@ -3262,17 +3268,11 @@ body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-memberarea-
 body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-document:before {
   content: '\e80e';
 }
-body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-project-analysisdoc:before {
-  content: '\e80e';
-}
-body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-project-designdoc:before {
-  content: '\e80e';
-}
 body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-project-doc:before {
   content: '\e80e';
 }
-body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-project-diagnosedoc:before {
-  content: '\e80e';
+body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-emc-bokeh-codefile:before {
+  content: '\e826';
 }
 body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-file:before {
   content: '\e811';
