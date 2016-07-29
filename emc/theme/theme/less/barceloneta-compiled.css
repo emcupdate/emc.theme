@@ -3337,58 +3337,58 @@ body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-event:after {
 body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-news-item:after {
   content: '\e80f';
 }
-body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-kb-folder:before {
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-kb-folder:after {
   content: '\e801';
 }
-body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-kb-kbfolder:before {
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-kb-kbfolder:after {
   content: '\e801';
 }
-body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-kb-ormfolder:before {
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-kb-ormfolder:after {
   content: '\e801';
 }
-body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-project-projectfolder:before {
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-project-projectfolder:after {
   content: '\e801';
 }
-body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-project-project:before {
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-project-project:after {
   content: '\e823';
 }
-body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-project-team:before {
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-project-team:after {
   content: '\e834';
 }
-body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-project-doc:before {
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-project-doc:after {
   content: '\e80e';
 }
-body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-memberarea-workspace:before {
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-memberarea-workspace:after {
   content: '\e801';
 }
-body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-memberarea-messagebox:before {
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-memberarea-messagebox:after {
   content: '\e809';
 }
-body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-memberarea-message:before {
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-memberarea-message:after {
   content: '\e81c';
 }
-body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-memberarea-inputbox:before {
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-memberarea-inputbox:after {
   content: '\e809';
 }
-body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-memberarea-outputbox:before {
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-memberarea-outputbox:after {
   content: '\e809';
 }
-body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-memberarea-favorite:before {
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-memberarea-favorite:after {
   content: '\e825';
 }
-body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-memberarea-todo:before {
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-memberarea-todo:after {
   content: '\e805';
 }
-body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-memberarea-myfolder:before {
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-memberarea-myfolder:after {
   content: '\e825';
 }
-body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-memberarea-todoitem:before {
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-memberarea-todoitem:after {
   content: '\e809';
 }
-body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-bokeh-fearture:before {
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-bokeh-fearture:after {
   content: '\e826';
 }
-body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-bokeh-codefile:before {
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-emc-bokeh-codefile:after {
   content: '\e826';
 }
 .image-icon,
