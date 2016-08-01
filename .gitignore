@@ -2,6 +2,8 @@
 /parts
 /develop-eggs
 /bin
+/node_modules
+npm-debug.log
 /.settings
 *.pyc
 *.egg
