@@ -24,5 +24,6 @@
       />
 
   <!-- Diazo themes -->
+  <include package="plone.resource" file="meta.zcml"/>
   <plone:static directory="theme" name="emc.theme" type="theme"/>  
 </configure>
